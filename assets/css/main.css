@@ -21,10 +21,6 @@
     margin: 10px 0 0 0;
 }
 
-/* .header__navbar-item {
-    margin: 0 8px;
-} */
-
 .header__navbar-item {
     margin: 0 8px;
     position: relative;
@@ -263,7 +259,7 @@
 }
 
 
-/* Authen modal */
+/*------------- Begin: Authen modal -------------*/
 .auth-form {
     width: 500px;
     border-radius: 5px;
@@ -278,7 +274,7 @@
 .auth-form__header {
     display: flex;
     align-items: center; /*Đưa 2 đối tượng về 1 hàng ngang*/
-    justify-content: space-between;/* đưa 2 đối tượng cùng một hàng sang 2 bên */
+    justify-content: space-between;/* Đưa 2 đối tượng cùng một hàng sang 2 bên */
     padding: 0 12px;
     margin-top: 10px;
 }
@@ -297,10 +293,6 @@
     cursor: pointer;
 }
 
-.auth-form__form {
-
-}
-
 .auth-form__input {
     width: 100%;
     height: 40px;
@@ -309,7 +301,7 @@
     font-size: 1.4rem;
     border-radius: 2px;
     border: 1px solid var(--border-color);
-    outline: none; /*loai bo khung von co cua box*/
+    outline: none;  /* Loại bỏ khung vốn có của 1 box */
 }
 
 .auth-form__input:focus {
@@ -394,9 +386,10 @@
 .auth-form__help-forgot {
     color: var(--primary-color);
 }
+/*------------- End: Authen modal -------------*/
 
 
-/* Header with search */
+/*------------- Begin: Header with search -------------*/
 .header-with-search {
     height: var(--header-with-search-height);
     display: flex;
@@ -414,12 +407,6 @@
 
 .header__search {
     background-color: var(--white-color);
-}
-
-/* Tu code menu-navbar */
-.header__menu-navbar {
-    /* height: 50px; */
-    /* display: flex; */
 }
 
 .header__menu-navbar--site {
@@ -448,50 +435,19 @@
     color: #939393;
 }
 
-/*------------------ Search button ------------------*/
-.header__menu-navbar .search-btn {
-    
-}
-
 .header__menu-navbar .search-icon {
     color: var(--white-color);
     font-size: 20px;
 }
+/*------------- End: Header with search -------------*/
 
 
-/* Thử làm menu đa cấp */
-/* .header__menu-navbar .sub-nav {
-    margin-top: 15px;
-    position: absolute;
-    padding: 0;
-}
-
-.header__menu-navbar .sub-nav li {
-    list-style: none;
-    padding-top: 10px;
-    display: inline-block;
-}
-
-.header__menu-navbar .sub-nav a {
-    display: inline-block;
-} */
-
-
-/* End menu đa cấp */
-
-
-/* Tiếp theo là bài 58 Dựng khung tìm kiếm  */
-
-
-
-
-
-/* Slider */
+/*------------- Begin: Slider -------------*/
 #slider {
     position: relative;
     margin-top: 120px;
     padding-top: 50%;
-    background: url('../img/slider/slider1-2.jpg') top center / cover no-repeat;
+    background: url('../img/slider/photo.jpg') top center / cover no-repeat;
     /* '/image/..' là khai báo tuyệt đối  */
     /* '../image/..' là khai báo tương đối  */
 }
@@ -503,7 +459,6 @@
     width: 100%;
     text-align: center;
     padding-top: 0;
-
     /* left: 50%;                Thay bằng dùng width: 100%
     transform: translate(-50%);  Ta có thể dùng 2 thuộc tính này thay cho "width: 100%"  */ 
 }
@@ -522,15 +477,18 @@
     padding-top: 25px;
     opacity: 0.8;
 }
-/* End Slider */
+/*------------- End: Slider -------------*/
 
 
 
 #content .content-section {
     width: 800px;
+    max-width: 100%;
     padding: 64px 0 112px;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 #content .section-heading {
@@ -585,7 +543,7 @@
 }
 
 
-/* ============ Infomation section ============ */
+/*------------- Information section -------------*/
 .information-section {
     background-color: rgb(242, 243, 244);
     /* background-color: ; */
@@ -626,7 +584,7 @@
 }
 
 
-/* ============ Place section ============ */
+/*------------- Place section -------------*/
 .places-list {
     margin-top: 32px;
 }
@@ -662,7 +620,7 @@
 }
 
 
-/* Contact form */
+/*------------- Begin: Contact form -------------*/
 .contact-content {
     margin-top: 48px;
 }
@@ -692,20 +650,12 @@
     border: 1px solid #ccc;
 }
 
-/* .contact-form .form-submit-btn {
-    float: right;
-    padding: 10px 16px;
-    background-color: #000;
-    color: var(--white-color);
-    border: 1px solid #000;
-} */
-
 .map-section img {
     width: 100%;
 }
 
 
-
+/*------------- Begin: Footer -------------*/
 #footer {
     padding: 64px 16px;
     text-align: center;
@@ -734,3 +684,4 @@
 #footer .copyright a {
     color: rgba(0, 0, 0, 0.6);
 }
+/*---------------- End: Footer ----------------*/
