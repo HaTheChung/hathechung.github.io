@@ -1,0 +1,21 @@
+/* PC */
+@media (min-width: 1024px) {
+
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .header__menu-navbar--site {
+        padding-left: 0;
+    }
+    
+    .header__menu-navbar--text {
+        margin: 0 5px;
+    }
+}
+
+
+/* MObile */
+@media (max-width: 740px) {
+
+}
