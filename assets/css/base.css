@@ -24,6 +24,9 @@ html {
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+}
 
 .grid {
     width: 1200px;
@@ -69,6 +72,7 @@ html {
     left: 0;
     display: flex;
     animation: fadeIn linear 0.1s;
+    z-index: 999;
 }
 
 .modal__overlay {

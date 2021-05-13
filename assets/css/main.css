@@ -6,7 +6,7 @@
     height: var(--header-height);
     /* line-height: ; */
     background-image: linear-gradient(0, #030e27, #030e27);
-    z-index: 999;
+    z-index: 1;
 }
 
 .header__navbar {
@@ -51,6 +51,7 @@
     align-items: center;
 }
 
+.click-sign:hover,
 .header__navbar-item:hover,
 .header__navbar-icon-link:hover,
 .header__navbar-item-link:hover {
@@ -60,6 +61,11 @@
 
 .header__navbar-item--strong {
     font-weight: 400;
+}
+
+.click-sign {
+    text-decoration: none;
+    color: var(--white-color);
 }
 
 .header__navbar-item--separate::after {
@@ -260,6 +266,7 @@
 
 
 /*------------- Begin: Authen modal -------------*/
+
 .auth-form {
     width: 500px;
     border-radius: 5px;
@@ -277,6 +284,10 @@
     justify-content: space-between;/* Đưa 2 đối tượng cùng một hàng sang 2 bên */
     padding: 0 12px;
     margin-top: 10px;
+}
+
+.auth-form__header a {
+    color: var(--primary-color);
 }
 
 .auth-form__heading {
@@ -328,6 +339,11 @@
     display: flex;
     justify-content: flex-end; /*day sang ben phai*/
     margin-top: 80px;
+}
+
+.auth-form__controls a {
+    text-decoration: none;
+    color: var(--text-color);
 }
 
 .auth-form__controls-back {
