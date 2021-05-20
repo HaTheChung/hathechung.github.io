@@ -207,6 +207,7 @@
 
 .header__notify-item {
     display: flex;
+    padding-bottom: 10px;
 }
 
 .header__notify-item:hover {
